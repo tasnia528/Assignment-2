@@ -1,0 +1,90 @@
+.bmi-container {
+  margin-top: 80px;
+}
+
+.bmi-child-container {
+  background-color: #222;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 50px 140px;
+}
+
+table.roboto-regular {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: transparent;
+  margin-top: 20px;
+}
+
+table.roboto-regular th,
+table.roboto-regular td {
+  border: 1px solid #383838;
+  padding: 8px 14px;
+  background-color: transparent;
+  text-align: left;
+}
+
+table.roboto-regular thead {
+  background-color: transparent;
+}
+
+table.roboto-regular tbody {
+  background-color: transparent;
+}
+
+table.roboto-regular tr {
+  background-color: transparent;
+}
+
+.bmi-form-container {
+  width: 700px;
+}
+
+.form-row {
+  display: flex;
+  gap: 0px 15px;
+  margin: 14px 0px;
+}
+
+.form-row input {
+  border: none;
+  background-color: #383838;
+  border-radius: 8px;
+  padding: 12px 10px;
+  color: #fff;
+  width: 100%;
+  font-size: 16px;
+}
+
+select {
+  width: 100%;
+  border: none;
+  background-color: #383838;
+  border-radius: 8px;
+  padding: 12px 10px;
+  color: #fff;
+  width: 100%;
+  font-size: 16px;
+}
+
+.bmi-button button {
+  border: none;
+  background-color: #e6533c;
+  padding: 14px 50px;
+  border-radius: 100px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 500px) and (min-width: 320px) {
+  .bmi-child-container {
+    flex-direction: column;
+    gap: 30px 0px;
+    margin-top: 15px;
+    padding: 30px 20px;
+  }
+  .bmi-form-container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,118 @@
+.banner-container {
+  padding: 30px 80px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-side {
+  width: 520px;
+}
+.left-side h1 {
+  font-size: 84px;
+}
+.left-side p {
+  font-size: 18px;
+  color: #8b8b8b;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.left-side button {
+  border: none;
+}
+.left-side button:nth-child(1) {
+  background-color: #e6533c;
+  padding: 14px 44px;
+  border-radius: 100px;
+  font-size: 20px;
+}
+.left-side button:nth-child(2) {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 14px 44px;
+  border-radius: 100px;
+  font-size: 20px;
+}
+.left-side .buttons {
+  display: flex;
+  gap: 0px 30px;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-container .top-card {
+  position: absolute;
+  right: -40px;
+  top: 120px;
+  border: 1px solid #8b8b8b;
+  border-radius: 20px;
+  padding: 15px 25px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.img-container .bottom-card {
+  position: absolute;
+  left: -80px;
+  bottom: 80px;
+  display: flex;
+  align-items: center;
+  gap: 0px 15px;
+  border: 1px solid #8b8b8b;
+  border-radius: 20px;
+  padding: 15px 25px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.bottom-card .circle {
+  background-color: #e6533c;
+  color: #fff;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+@media screen and (max-width: 500px) and (min-width: 320px) {
+  .banner-container {
+    padding: 30px 20px 20px;
+    flex-direction: column;
+    gap: 20px 0px;
+  }
+
+  .left-side {
+    width: 100%;
+  }
+  .left-side h1 {
+    font-size: 56px;
+  }
+  .left-side p {
+    font-size: 16px;
+    color: #8b8b8b;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .left-side button:nth-child(1) {
+    padding: 10px 24px;
+    border-radius: 100px;
+    font-size: 16px;
+  }
+  .left-side button:nth-child(2) {
+    padding: 10px 24px;
+    border-radius: 100px;
+    font-size: 16px;
+  }
+
+  .img-container .top-card {
+    right: -25px;
+    top: 60px;
+    padding: 15px 20px;
+  }
+
+  .img-container .bottom-card {
+    left: -20px;
+    bottom: 180px;
+    padding: 15px 20px;
+  }
+}

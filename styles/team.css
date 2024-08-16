@@ -1,0 +1,58 @@
+.team-container {
+  padding: 80px 100px;
+}
+
+.trainer-gallery {
+  width: 1060px;
+  margin: 0 auto;
+  background-color: #222;
+  border-radius: 20px;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 40px 20px;
+}
+
+.img-div {
+  position: relative;
+  background-color: transparent;
+  width: 332px;
+  margin: 0 auto;
+}
+
+.img-div img {
+  height: 272px;
+  width: 330px;
+  border-radius: 20px;
+  display: block;
+}
+
+.trainer-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+}
+
+.trainer-name p {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 500px) and (min-width: 320px) {
+  .team-container {
+    padding: 50px 20px;
+  }
+
+  .trainer-gallery {
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0px;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    gap: 20px 0px;
+  }
+}
